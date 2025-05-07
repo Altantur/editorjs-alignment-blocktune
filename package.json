@@ -37,7 +37,6 @@
   "directories": {
     "example": "example"
   },
-  "dependencies": {},
   "author": "kaaaaaaaaaaai <kaiogita+npm@gmail.com>",
   "description": "text alignment block tune tool for Editor.js"
 }

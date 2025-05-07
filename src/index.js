@@ -106,6 +106,7 @@ class AlignmentBlockTune {
                 this.data = {
                     alignment: this.alignmentSettings[index].name
                 }
+                this.block?.dispatchChange()
                 elements.forEach((el, i) => {
                     const {name} = this.alignmentSettings[i];
                     el.classList.toggle(this.api.styles.settingsButtonActive, name === this.data.alignment);
